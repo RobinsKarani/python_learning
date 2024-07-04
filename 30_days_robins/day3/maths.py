@@ -15,16 +15,15 @@ import math
 # circumference of  circle
 #2pir
 
-radius = input(f'enter the radius of the circle: ')
-radius = float(radius)
+radius = float(input(f'enter the radius of the circle: '))
 circumference = 2 * math.pi * radius
 circumference = round(circumference, 2)  # rounding to two decimal places
-circ = circumference
+area = round(math.pi*radius**2, 2)
+print(f'The circumference of the circle is {circumference} cm long ')
+print(f'The area of the circle is {area} cm^2')
 
-
-print(f'The circumference of the circle is {circ} cm long ')
-
-
+# hypotenuse calculator
+a
 
 
 
