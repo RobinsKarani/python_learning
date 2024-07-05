@@ -2,7 +2,7 @@
 
 I learn .py via
 
-## Python Leraning Git Repositories~@Asabeneh's
+## Python Learning Git Repositories~@Asabeneh's
 https://github.com/Asabeneh/30-Days-Of-Python 
 
 ## Youtube Tutorials ~ Brocode python playlist
