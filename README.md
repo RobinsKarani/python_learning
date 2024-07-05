@@ -1,4 +1,4 @@
-## ## ## I practice .py here
+##     I practice .py here
 I learn .py via
 ## Python Leraning Git Repositories
 https://github.com/Asabeneh/30-Days-Of-Python 
