@@ -53,3 +53,12 @@ for company in it_companies:
                 break
             print(i)
 
+'''pass
+In python when statement is required (after semicolon),
+but we don't like to execute any code there, we can write the word pass to avoid errors. Also we can use it as a placeholder, for future statements.
+
+Example:'''
+
+for number in range(6):
+    pass
+
