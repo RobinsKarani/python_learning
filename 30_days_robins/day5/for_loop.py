@@ -36,3 +36,7 @@ for number in numbers: # number is temporary name to refer to the list's items, 
 
             for key, value in person.items():
                 print(key, value)  # this way we get both keys and values printed out
+ # ** add loops in set
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+for company in it_companies:
+    print(company)
