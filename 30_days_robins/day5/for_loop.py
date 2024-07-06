@@ -40,3 +40,16 @@ for number in numbers: # number is temporary name to refer to the list's items, 
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
 for company in it_companies:
     print(company)
+
+    #continue
+    for i in range(10):
+        if i % 2 == 0:
+            continue
+        print(i)
+
+            # break
+        for i in range(10):
+            if i == 5:
+                break
+            print(i)
+
