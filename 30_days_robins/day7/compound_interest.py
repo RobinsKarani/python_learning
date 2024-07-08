@@ -9,7 +9,7 @@ annual_interest_rate = 0.05  # annual interest rate
 
 # Function to calculate compound interest
 def compound_interest(principal, annual_rate, months, years):
-    amount = principal * (1 + annual_rate / (months * 12)) ** (months * years)
+    amount = principal * (1 + annual_rate / months) ** (months * years)
     amount = round(amount, 2)
     return amount
 
@@ -21,3 +21,4 @@ profit = round(total_amount - initial_deposit, 2)
 # Print the results
 print(f'Total amount after {duration_years} years is Kshs: {total_amount}')
 print(f'You have gained Kshs: {profit}')
+
