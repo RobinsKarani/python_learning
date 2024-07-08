@@ -16,5 +16,5 @@ This way, I will complete the repo in 15 days while still doing Bro Code.
 I'm hoping to finish the BroCode python tutorial in one month though.
 I'll add what's next............
 
-## BTW
-I use Pycharm mostly when working on python stuff
+## Btw😁😁😃...
+......I use Pycharm mostly when working on python stuff
