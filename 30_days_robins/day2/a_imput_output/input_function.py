@@ -76,6 +76,3 @@ print(f"Hello, {name}!")  # Greets the user, using "Guest" if no name was entere
 # 5. Validating input to ensure it meets certain criteria.
 # 6. Providing default values when the user doesn't enter any input.
 
-#'''' All these use cases help make programs interactive and user-friendly,
-# allowing for dynamic input and responses based on user actions.
-''''''
