@@ -72,3 +72,4 @@ converted_number = int(string_number)
 print("Type Conversion:")
 print("String '42':", string_number, "- Type:", type(string_number))
 print("Converted to integer:", converted_number, "- Type:", type(converted_number))
+
