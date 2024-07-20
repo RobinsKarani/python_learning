@@ -35,4 +35,3 @@ print(word[:2])  # Output: Py (from start to index 1)
 print(word[4:])  # Output: on (from index 4 to the end)
 print(word[:])  # Output: Python (whole string)
 
-git commit --date "10 day ago" -m "Your commit message"
