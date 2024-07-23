@@ -1,4 +1,2 @@
-d = 2.6
-
-rounded = round(d)  # Round to nearest integer: 2.1 rounds to 2
-print(rounded)
+for countdown in range(10, 0, -1):
+    print("Countdown:", countdown)
