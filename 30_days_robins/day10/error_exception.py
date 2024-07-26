@@ -1,8 +1,8 @@
 try:
-    name = input('Enter your name:')
-    year_born = input('Year you born:')
-    age = 2019 - int(year_born)
-    print('You are {name}. And your age is {age}.')
+    name = input('Enter your name: ')
+    year_born = input('Year you born: ')
+    age = 2024 - int(year_born)
+    print(f'You are {name}. And your age is {age}.')
 except TypeError:
     print('Type error occur')
 except ValueError:

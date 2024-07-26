@@ -9,3 +9,6 @@ elif unit == "F":
     print(f"The temperature in Celsius is: {temp}°C")
 else:
     print(f"{unit} is an invalid unit of measurement")
+
+    #help
+print(help(str))
