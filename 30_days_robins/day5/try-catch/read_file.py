@@ -23,6 +23,6 @@ def read_file(file_path):
         print("Execution of file reading process is complete.")
 
 # Example usage
-file_path = 'example.txt'  # Replace with the path to your file
+file_path = 'nigga.txt'  # Replace with the path to your file
 read_file(file_path)
 
