@@ -10,10 +10,10 @@ Create a Python program that acts as a temperature converter. The program should
 5. The program should handle invalid inputs gracefully and provide meaningful error messages.
 
 ## Example:
-Enter temperature value: 100
-Enter input unit (C/F/K): C
-Enter output unit (C/F/K): F
-The converted temperature is 212.0 F
+Enter the temperature value: 8
+Enter the input unit (F/K/C): f
+Enter the output unit (F/K/C): c
+The converted temperature value is: -13.333333333333334 C
 
 
 ## Conversion Formulas:
@@ -23,3 +23,4 @@ The converted temperature is 212.0 F
 - Kelvin to Celsius: \( C = K - 273.15 \)
 - Fahrenheit to Kelvin: \( K = (F - 32) \times \frac{5}{9} + 273.15 \)
 - Kelvin to Fahrenheit: \( F = (K - 273.15) \times \frac{9}{5} + 32 \)
+
