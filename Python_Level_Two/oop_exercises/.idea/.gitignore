@@ -1,0 +1,7 @@
+
+# ignore all .xml files
+.idea/*.xml
+
+/shelf/
+
+.idea\inspectionProfiles
