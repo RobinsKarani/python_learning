@@ -1,14 +1,20 @@
-class ClassTest:
-    def instance_method(self):
-        print(f"Called instance_method of {self}")
-
-    @classmethod
-    def class_method(cls):
-        print(f"Called class_method of {cls}")
-
-    @staticmethod
-    def static_method(): # don't take class,instance or any other parameters
-        print("called static method")
+def my_map(func, arguments_list):
+    result = []
+    for every_element in arguments_list:
+        result.append(func(every_element))
+    return result
 
 
-ClassTest.static_method()
+def square(x):
+    return x * x
+
+
+def cube(x):
+    return x * x * x
+
+
+squares = my_map(func=square, [1, 2, 3, 4, 5])
+cubes = my_map(func=cube, [1, 2, 3, 4, 5])
+
+print(squares)
+print(cubes)
